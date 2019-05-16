@@ -1,6 +1,8 @@
+#忽略与IDE相关的文件
 .classpath
 .project
-
+#忽略编译后的代码
+classes/
 # Compiled class file
 *.class
 
@@ -12,7 +14,7 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-classes
+
 # Package Files #
 *.jar
 *.war
